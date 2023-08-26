@@ -1,0 +1,40 @@
+.cart-items{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 20rem;
+    overflow: auto;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-align: right;
+    margin: 1rem 0;
+}
+.actions{
+    text-align: right;
+}
+.actions button{
+    font: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #8a2b06;
+    padding: 0.25rem 2rem;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.actions button:hover, .actions button:active{
+    background-color: #5a1a01;
+    border-color: #5a1a01;
+    color: white;
+}
+.actions button.alternative{
+    color: #8a2b06;
+    border-color: transparent;
+}
+.actions button.alternative:hover, .actions button.alternative:active{
+    background-color: transparent;
+    color: #5a1a01;
+}
