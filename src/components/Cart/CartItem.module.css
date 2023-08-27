@@ -28,7 +28,6 @@
   
   .actions {
     display: flex;
-    flex-direction: column;
   }
   
   .actions button {
@@ -36,17 +35,19 @@
     font-weight: bold;
     font-size: 1.25rem;
     cursor: pointer;
-    padding: 0.25rem 0.5rem;
+    padding: 0.25rem 1rem;
     border: 1px solid #8a2b06;
-    background-color: #8a2b06;
-    color: white;
-    border-radius: 25px;
+    background-color: transparent;
+    color: #8a2b06;
+    border-radius: 5px;
     margin-top: 0.5rem;
+    margin-right: 0.5rem;
   }
   
   .actions button:hover,
   .actions button:active {
     background-color: #641e03;
     border-color: #641e03;
+    color: white;
   }
   
